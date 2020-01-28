@@ -22,6 +22,6 @@ public abstract class Hijo {
 	
 	//Métodos
 	public int ataque() { //solo es un ejemplo
-		return ;
+		return;
 	}
 }
