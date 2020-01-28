@@ -8,7 +8,7 @@ public final class Frank {
 	int vel;
 	int piedad;
 	int enfado;
-	int paciencia;
+	int paciencia ;
 	
 	//Constructor
 	public Frank() {
