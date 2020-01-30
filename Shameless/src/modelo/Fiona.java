@@ -10,4 +10,4 @@ public final class Fiona extends Hijo {
 	tirarZapato()
 	pedirAyudaFamilia() /*En vez de actuar Frank, actuará el resto del equipo antes que él*/
 	recriminar() //baja credibilidad a Frank y se la suma a Fiona
-}
+
