@@ -6,7 +6,7 @@ public final class Frank {
 	int hp;
 	int sobriedad;
 	int enfado;
-	int credibilidad;
+	int credibilidad ;
 	/*velocidad
 	 * ego
 	 * */
