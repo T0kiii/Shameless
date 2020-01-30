@@ -16,7 +16,7 @@ public final class Frank {
 		this.def=10;
 		this.vel=10;
 		this.piedad=10;
-		this.enfado=10;
+		this.enfado=10;/* prueba*/
 		this.paciencia=10;
 	}
 }
