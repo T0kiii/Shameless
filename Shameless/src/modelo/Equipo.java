@@ -3,6 +3,6 @@ import modelo.Hijo;
 
 public class Equipo {
 	public Hijo[] Equipo;
-	//hola
+	//holaaaa
 }
  
