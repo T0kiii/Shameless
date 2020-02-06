@@ -5,4 +5,4 @@ public class Equipo {
 	public Hijo[] Equipo;
 	//holaaaa
 }
- 
+ //gf
