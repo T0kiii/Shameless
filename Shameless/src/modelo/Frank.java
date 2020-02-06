@@ -3,10 +3,10 @@ package modelo;
 public final class Frank {
 	
 	//Stats
-	int hp;
-	int ebriedad;
-	int enfado;
-	int credibilidad;
+	private int hp;
+	private int ebriedad;
+	private int enfado;
+	private int credibilidad;
 	/*velocidad
 	 * ego
 	 * */
@@ -14,6 +14,7 @@ public final class Frank {
 	//Constructor
 	public Frank() {
 		//this.vel=10;
+		this.hp=100;
 		this.ebriedad=10;
 		this.enfado=10;/* prueba*/
 		this.credibilidad=10;

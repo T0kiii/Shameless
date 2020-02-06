@@ -2,9 +2,12 @@ package modelo;
 
 public final class Lip extends Hijo {
 
-	int ebriedad;
+	 private int ebriedad;
 	
-	beberConFrank() //aumenta ebriedad de Frank y Lip
+	public void beberConFrank() {//aumenta ebriedad de Frank y Lip
+		ebriedad+=10;
+	}
+	
 	punietazo()
 	
 }
