@@ -1,6 +1,6 @@
 package modelo;
 
-public final class Lip extends Hijo {
+public final class Lip extends Hijo implements hijosMayores{
 
 	 private int ebriedad;
 	
@@ -8,6 +8,11 @@ public final class Lip extends Hijo {
 		ebriedad+=10;
 	}
 	
-	punietazo()
+	@Override
+	public void punietazo() {
+		// TODO Auto-generated method stub
+		
+	}
+	ganarDinero()
 	
 }

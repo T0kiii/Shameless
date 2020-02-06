@@ -1,11 +1,10 @@
 package modelo;
 
-public final class Ian extends Hijo {
+public final class Ian extends Hijo implements hijosMayores{
 
 	private Boolean haSalidoDelArmario=false;
 	
-	punietazo()
-	salirDelArmario(){//Baja credibilidad y sube enfado a Frank
+	public void salirDelArmario(){//Baja credibilidad y sube enfado a Frank
 		if (!haSalidoDelArmario) {
 			
 			
@@ -14,7 +13,13 @@ public final class Ian extends Hijo {
 			System.out.println("Ya ha salido del armario");
 		}
 	}
-	irseDeCasa(){//Baja mucho credibilidad de Frank, pero Ian se va del grupo
+	public void irseDeCasa(){//Baja mucho credibilidad de Frank, pero Ian se va del grupo
+		Frank.setEbriedad(Frank.getEbriedad()-10);	
+		//falta esto,pero Ian se va del grupo
+	}
+	@Override
+	public void punietazo() {
+		// TODO Auto-generated method stub
 		
 	}
 	

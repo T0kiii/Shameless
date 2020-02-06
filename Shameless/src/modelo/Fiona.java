@@ -1,7 +1,7 @@
 package modelo;
 
-public final class Fiona extends Hijo {
-	int credibilidad;
+public final class Fiona extends Hijo implements hijosMayores {
+	private int credibilidad;
 
 	public Fiona() {
 		super();
@@ -11,3 +11,10 @@ public final class Fiona extends Hijo {
 	pedirAyudaFamilia() /*En vez de actuar Frank, actuará el resto del equipo antes que él*/
 	recriminar() //baja credibilidad a Frank y se la suma a Fiona
 
+
+
+	@Override
+	public void punietazo() {
+		// TODO Auto-generated method stub
+		
+	}

@@ -3,10 +3,10 @@ package modelo;
 public final class Frank {
 	
 	//Stats
-	private int hp;
-	private int ebriedad;
-	private int enfado;
-	private int credibilidad;
+	private static int hp;
+	private static int ebriedad;
+	private static int enfado;
+	private static int credibilidad;
 	/*velocidad
 	 * ego
 	 * */
@@ -21,8 +21,49 @@ public final class Frank {
 	}
 	
 	//métodos
-	enfadarse()
+	public static int getHp() {
+		return hp;
+	}
+
+	public static void setHp(int hp) {
+		Frank.hp = hp;
+	}
+
+	public static int getEbriedad() {
+		return ebriedad;
+	}
+
+	public static void setEbriedad(int ebriedad) {
+		Frank.ebriedad = ebriedad;
+	}
+
+	public static int getEnfado() {
+		return enfado;
+	}
+
+	public static void setEnfado(int enfado) {
+		Frank.enfado = enfado;
+	}
+
+	public static int getCredibilidad() {
+		return credibilidad;
+	}
+
+	public static void setCredibilidad(int credibilidad) {
+		Frank.credibilidad = credibilidad;
+	}
+
+
+
+	public void enfadarse() {
+		enfado+=15;
+	}
 	darDiscurso()
 	empujar()
+	cobrarPension()
 	punietazo() //Más fuerte que empujar, pero necesita enfado
+
+	
 }
+
+

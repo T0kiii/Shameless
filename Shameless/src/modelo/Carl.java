@@ -4,4 +4,5 @@ public final class Carl extends Hijo {
 	//es medio narco
 	
 	usarBate() //hace mucho daño
+	drogarFrank()
 }
