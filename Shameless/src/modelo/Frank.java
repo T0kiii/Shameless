@@ -4,9 +4,9 @@ public final class Frank {
 	
 	//Stats
 	int hp;
-	int sobriedad;
+	int ebriedad;
 	int enfado;
-	int credibilidad ;
+	int credibilidad;
 	/*velocidad
 	 * ego
 	 * */
@@ -14,14 +14,14 @@ public final class Frank {
 	//Constructor
 	public Frank() {
 		//this.vel=10;
-		this.sobriedad=10;
+		this.ebriedad=10;
 		this.enfado=10;/* prueba*/
-		this.credibilidad=10 ;
+		this.credibilidad=10;
 	}
 	
 	//métodos
 	enfadarse()
 	darDiscurso()
 	empujar()
-	punietazo()
+	punietazo() //Más fuerte que empujar, pero necesita enfado
 }

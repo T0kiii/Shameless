@@ -1,5 +1,5 @@
 package modelo;
-
+//
 public abstract class Hijo {
 	
 	//Stats
@@ -19,11 +19,5 @@ public abstract class Hijo {
 	}
 	
 	//Métodos
-<<<<<<< HEAD
-	public int ataque() { //solo es un ejemplo
-		return;
-	}
-=======
 	empujar()
->>>>>>> branch 'master' of https://github.com/T0kiii/Shameless.git
 }
