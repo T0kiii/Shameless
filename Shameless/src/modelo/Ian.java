@@ -4,6 +4,10 @@ public final class Ian extends Hijo implements hijosMayores{
 
 	private Boolean haSalidoDelArmario=false;
 	
+	public Ian(Boolean haSalidoDelArmario) {
+		super();
+		this.haSalidoDelArmario = haSalidoDelArmario;
+	}
 	public void salirDelArmario(){//Baja credibilidad y sube enfado a Frank
 		if (!haSalidoDelArmario) {
 			
@@ -22,5 +26,12 @@ public final class Ian extends Hijo implements hijosMayores{
 		// TODO Auto-generated method stub
 		
 	}
+	public Boolean getHaSalidoDelArmario() {
+		return haSalidoDelArmario;
+	}
+	public void setHaSalidoDelArmario(Boolean haSalidoDelArmario) {
+		this.haSalidoDelArmario = haSalidoDelArmario;
+	}
+	
 	
 }

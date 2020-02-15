@@ -3,6 +3,11 @@ package modelo;
 public final class Carl extends Hijo {
 	//es medio narco
 	
-	usarBate() //hace mucho daño
-	drogarFrank()
+	
+	public void usarBate() {//hace mucho daño
+		
+	}
+	public void drogarFrank() {
+		
+	}
 }

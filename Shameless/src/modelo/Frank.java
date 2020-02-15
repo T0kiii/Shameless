@@ -53,16 +53,21 @@ public final class Frank {
 		Frank.credibilidad = credibilidad;
 	}
 
-
-
 	public void enfadarse() {
 		enfado+=15;
 	}
-	darDiscurso()
-	empujar()
-	cobrarPension()
-	punietazo() //Más fuerte que empujar, pero necesita enfado
-
+	public void darDiscurso() {
+		
+	}
+	public void empujar() {
+		
+	}
+	public void cobrarPension() {
+		
+	}
+	public void punietazo() { //Más fuerte que empujar, pero necesita enfado
+		
+	}
 	
 }
 
