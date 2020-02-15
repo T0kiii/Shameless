@@ -10,7 +10,9 @@ import javax.swing.border.EmptyBorder;
 public class VentanaPrincipal extends JFrame {
 
 	private JPanel contentPane;
-
+//aqui lo que he pensado en poner dos botones uno que te mande a la pantalla principal juego que es donde tienes un boton que le das y 
+	//ya juegas y otro boton que te mande a otra interfaz grafica que ponga los controles que nos podemos inventar y aunque no tengamos
+	//nos los inventamos y queda mas bonito
 	/**
 	 * Launch the application.
 	 */
