@@ -1,6 +1,6 @@
 package modelo;
 
 public interface hijosMayores {
-	int paciencia=0;
-	public void punietazo();
+	
+	public void punietazo(Frank miFrank);
 }
